@@ -1,3 +1,8 @@
 # Created by .ignore support plugin (hsz.mobi)
 /big.txt
 /data/
+.idea/
+/splits.zip
+.DS_Store
+splits.zip
+splits/
