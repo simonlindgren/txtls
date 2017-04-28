@@ -8,7 +8,7 @@ functionality: joins all txt files in a folder into one big txt file
 """
 
 import glob
-fs = glob.glob("data/*.txt")                                       # get a list of all files
+fs = glob.glob("*.txt")                                       # get a list of all files
 
 with open("big.txt", "wb") as outfile:                             # create output file
     for f in fs:                                                   # iterate over the files
