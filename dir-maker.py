@@ -8,7 +8,7 @@ functionality: creates a set of empty directories from a list of directory names
 
 import os
 dirs = open("dirs.txt", "r").readlines()
+dirs = set(dirs) # remove duplicates from dir list
 for dir in dirs:
-	os.mkdir(dir)
-
-
+	if not os.path.exists((dir).strip()):
+		os.mkdir(dir.strip())
