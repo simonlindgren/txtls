@@ -7,3 +7,4 @@ Python scripts to do stuff with text data.
 - **pdf-txt.py** creates txt versions of all pdf files in the working directory
 - **col-grabber.py** creates a txt file with the contents of a selected csv file column
 - **dir-maker.py** creates a set of empty directories from a list of directory names in a text file
+- **csv-linebreak-remover.py** removes linebreaks from within csv fields and writes a new csv
