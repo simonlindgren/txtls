@@ -18,7 +18,7 @@ import pandas as pd
 for file in os.listdir(): # for each file in the directory
     if file.endswith(".csv"): # if it has the csv extension
         f = open(file, 'r') # open it
-        dataframe = pd.read_csv(f) # into a dataframe
+        dataframe = pd.read_csv(f, sep=";") # into a dataframe
 
         #headers = dataframe.dtypes.index # view the column names if needed
         #print(headers)
