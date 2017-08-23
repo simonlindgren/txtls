@@ -8,3 +8,4 @@ Python scripts to do stuff with text data.
 - **col-grabber.py** creates a txt file with the contents of a selected csv file column
 - **dir-maker.py** creates a set of empty directories from a list of directory names in a text file
 - **csv-linebreak-remover.py** removes linebreaks from within csv fields and writes a new csv
+- **json-csv.py** creates a csv file from a json file
